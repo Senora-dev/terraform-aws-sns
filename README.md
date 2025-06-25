@@ -16,7 +16,7 @@ This Terraform module creates an Amazon SNS (Simple Notification Service) topic 
 
 ```hcl
 module "sns" {
-  source = "path/to/module"
+  source = "Senora-dev/sns/aws"
 
   name         = "my-topic"
   display_name = "My Topic"
